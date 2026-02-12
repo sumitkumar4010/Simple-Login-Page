@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    width: 500px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-left {
+    width: 60%;
+}
+
+.form-left label {
+    font-weight: bold;
+}
+
+.form-left input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0 20px 0;
+}
+
+.form-left button {
+    width: 40%;
+    padding: 10px;
+    margin-right: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-left button:hover {
+    opacity: 0.8;
+}
+
+.form-right {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-right img {
+    width: 150px;
+}
